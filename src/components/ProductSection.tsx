@@ -13,8 +13,24 @@ const products = [
   },
   {
     image: "/assets/tb-channel.webp",
-    name: "T.B. Channel – 1 Meter",
+    name: "T.B. Channel",
     description: "Robust terminal block channel for organized layouts.",
+  },
+  {
+    image: "/assets/grill-piece.webp",
+    name: "Rolling Grill Piece",
+    description:
+      "Durable grill component for smooth, guided movement in assemblies.",
+  },
+  {
+    image: "/assets/tb-channel.webp",
+    name: "T.B. Channel - Slotted",
+    description: "Robust terminal block channel for organized layouts.",
+  },
+  {
+    image: "/assets/earth-pipe.webp",
+    name: "Chemical Earth Pipe",
+    description: "Corrosion-resistant pipe for long-lasting earthing systems.",
   },
 ];
 
@@ -31,7 +47,7 @@ export default function ProductSection() {
         </p>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+      <div className="max-w-7xl mx-auto px-4 grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {products.map((product, idx) => (
           <ProductCard
             key={idx}

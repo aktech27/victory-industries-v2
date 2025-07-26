@@ -62,7 +62,7 @@ const Footer = () => {
                 Contact
               </h2>
               <ul className="text-gray-600 dark:text-gray-400 font-medium text-sm space-y-2">
-                <li>No.8, Gandhi Main Road</li>
+                <li>No.83, Gandhi Main Road</li>
                 <li>Puzhal, Chennai - 600 066</li>
                 <li>+91 98413 78038</li>
                 <li>
